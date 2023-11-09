@@ -9,6 +9,9 @@ body{
     height: 500px;
     background-size: cover;
     padding-top: 1px;
+    background-repeat: no-repeat;
+    height:2000px;
+    background-attachment:fixed;
 }
 .div-cabecalho{
   /*background-color: aqua*/
@@ -63,4 +66,50 @@ body{
 main{
     width:90%;
     margin: auto;
+}
+main article {
+    background: #dabf91;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+main header {
+    background-color: #b9a27e;;
+    text-align: center;
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    
+}
+
+article img {
+    width: 100px;
+    padding: 20px ;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.icone:hover {
+    transform: scale(1.2); /* Aumenta o tamanho do ícone */
+    color: rgb(17, 2, 2);
+}
+
+footer {
+    background-color:#372609;
+    color:#d6c9b3;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #d2d2d2;
+    text-decoration: none;
 }
