@@ -88,17 +88,23 @@ article img {
     padding: 20px ;
 }
 
-.icone {
+.icone{
     display: flex;
-    align-items:start;
     width: 85%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
-.icone:hover {
-    transform: scale(1.2); /* Aumenta o tamanho do ícone */
+.icone {
+    
+transition: transform 0.3s ease; /* Adiciona uma transição suave à propriedade transform */
+}
+
+.icone:hover{
+    transform: scale(1.2); /* Aumenta o tamanho do ícone apenas quando o contêiner é hover */
     color: rgb(17, 2, 2);
 }
+
 
 footer {
     background-color:#372609;
