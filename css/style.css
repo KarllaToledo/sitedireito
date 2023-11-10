@@ -14,12 +14,10 @@ body{
     background-attachment:fixed;
 }
 .div-cabecalho{
-  /*background-color: aqua*/
-
-  margin:100px auto 0 auto;
-  width:80%;
-  text-align:center;
-  color:#372609
+    margin:100px auto 0 auto;
+    width:80%;
+    text-align:center;
+    color:#372609
 }
 
 .div-cabecalho h1{
@@ -80,20 +78,20 @@ main header {
     padding: 5px 0;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 5px;
     
 }
 
 article img {
-    width: 100px;
+    width: 85px;
     padding: 20px ;
 }
 
 .icone {
     display: flex;
-    align-items: center;
-    width: 90%;
+    align-items:start;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -105,8 +103,11 @@ article img {
 footer {
     background-color:#372609;
     color:#d6c9b3;
+    text-transform: uppercase;
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
+    font-size: 12px;
+    font-style: italic;
 }
 
 footer a {
