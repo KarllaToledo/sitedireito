@@ -84,24 +84,25 @@ main header {
 }
 
 article img {
-    width: 85px;
-    padding: 20px ;
+    width: 80px;
+    padding: 15px;
 }
 
-.icone{
+.icone img{
     display: flex;
-    width: 85%;
+    width: 10%;
     margin: 0 auto;
     overflow: hidden;
-}
-
-.icone {
     
-transition: transform 0.3s ease; /* Adiciona uma transição suave à propriedade transform */
 }
 
-.icone:hover{
-    transform: scale(1.2); /* Aumenta o tamanho do ícone apenas quando o contêiner é hover */
+.icone img {
+    
+transition: transform 0.3s ease; 
+}
+
+.icone:hover img{
+    transform: scale(1.5); 
     color: rgb(17, 2, 2);
 }
 
@@ -119,4 +120,20 @@ footer {
 footer a {
     color: #d2d2d2;
     text-decoration: none;
+}
+
+.p01{
+    float: left;
+    height: 80px;
+    margin: 15px;
+}
+.p02{
+    float: left;
+    height: 75px;
+    margin: 15px;
+}
+.p03{
+    float: left;
+    height: 80px;
+    margin: 15px;
 }
